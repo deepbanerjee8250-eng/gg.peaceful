@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://YOUR_BACKEND_IP:YOUR_BACKEND_PORT/api/:path*"
+      "destination": "http://sftp://vip2.heavencloud.in:2022/api/:path*"
     },
     {
       "source": "/(.*)",
